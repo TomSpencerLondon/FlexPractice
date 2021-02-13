@@ -1,0 +1,31 @@
+body {
+    background: yellow;
+}
+
+#app {
+    display: flex;
+    height: 300px;
+    min-height: 300px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#app div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.child1 {
+    background: blue;
+}
+
+.child2 {
+    background: green;
+}
+
+.child3 {
+    background: red;
+}
